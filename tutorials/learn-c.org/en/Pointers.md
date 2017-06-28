@@ -1,7 +1,7 @@
 Tutorial
 --------
 
-Pointers are also variables and play a very important role in C programming language. They are used for several reasons, such as:
+Pointers are also variables, and play a very important role in the C programming language. They are used for several reasons, such as:
 
 * Strings
 * Dynamic memory allocation
@@ -10,17 +10,15 @@ Pointers are also variables and play a very important role in C programming lang
 * Pointing to functions
 * Building special data structures (i.e. Tree, Tries, etc...)
 
-And many more.
-
 ### What is a pointer?
 
-A pointer is essentially a simple integer variable which holds a **memory address** that points to a value, instead of holding the actual value itself. 
+A pointer is essentially a simple integer variable, which holds a **memory address** that points to a value. Instead of holding the actual value itself. 
 
-The computer's memory is a sequential store of data, and a pointer points to a specific part of the memory. Our program can use pointers in such a way that the pointers point to a large amount of memory - depending on how much we decide to read from that point on.
+The computer's memory is a sequential store of data, and a pointer points to a specific part of that memory. Our program can use pointers in such a way that the pointers point to a large amount of memory - depending on how much we decide to read from that point on.
 
 ### Strings as pointers
 
-We've already discussed strings, but now we can dive in a bit deeper and understand what strings in C really are (which are called C-Strings to differentiate them from other strings when mixed with C++) 
+We've already discussed strings, but now we can dive in a bit deeper and understand what strings in C really are (Calling C-Strings to differentiate from strings that are mixed with C++.) 
 
 The following line:
 
